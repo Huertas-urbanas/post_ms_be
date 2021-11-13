@@ -1,5 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+postApp/magrations/__pycache__/
+postApp/models/__pycache__/
+postApp/serializers/__pycache__/
+postApp/views/__pycache__/
+postApp/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -105,6 +110,7 @@ celerybeat.pid
 .env
 .venv
 env/
+./env/
 venv/
 ENV/
 env.bak/
