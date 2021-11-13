@@ -6,3 +6,4 @@ class Post(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     image =  models.URLField(blank=True)
     #category = 
+    def datepublished(self): return self.date.strftime('%d %b %Y' )
