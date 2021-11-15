@@ -5,7 +5,7 @@ from rest_framework import serializers
 class PostSerializer(serializers.ModelSerializer):
     class Meta:
         model = Post
-        fields = ['user', 'text', 'datepublished','image']
+        fields = ['id','user', 'text', 'datepublished','image']
 
 def to_representation(self, obj):
     post = Post.objects.get(id=obj.id)
