@@ -1,3 +1,3 @@
-from .postView   import PostCreateView, PostView, ProductoDeleteView,\
-                         ProductoUpdateView
+from .postView   import PostCreateView, PostView, PostDeleteView,\
+                         PostUpdateView
 

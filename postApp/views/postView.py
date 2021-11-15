@@ -25,7 +25,7 @@ class PostView(generics.ListAPIView):
         return queryset
 
 # Delete
-class ProductoDeleteView(generics.DestroyAPIView):
+class PostDeleteView(generics.DestroyAPIView):
     serializer_class = PostSerializer
 
     def get_queryset(self):           
@@ -36,7 +36,7 @@ class ProductoDeleteView(generics.DestroyAPIView):
         return super().destroy(request, *arg, **kwargs)
 
 # Update 
-class ProductoUpdateView(generics.UpdateAPIView):
+class PostUpdateView(generics.UpdateAPIView):
     serializer_class = PostSerializer
 
     def get_queryset(self):
