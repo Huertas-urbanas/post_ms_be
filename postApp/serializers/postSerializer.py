@@ -14,6 +14,5 @@ def to_representation(self, obj):
         'id' : obj.id,
         'user' : obj.user,
         'text' : obj.text,
-        'datepublished' : obj.datepublished,
         'image' : obj.image,
     }
